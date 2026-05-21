@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/keyboard_background"
+    android:paddingStart="4dp"
+    android:paddingTop="8dp"
+    android:paddingEnd="4dp"
+    android:paddingBottom="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="6dp"
+            android:orientation="horizontal">
+        <Button android:text="1" style="@style/KeyboardKey"/>
+        <Button android:text="2" style="@style/KeyboardKey"/>
+        <Button android:text="3" style="@style/KeyboardKey"/>
+        <Button android:text="4" style="@style/KeyboardKey"/>
+        <Button android:text="5" style="@style/KeyboardKey"/>
+        <Button android:text="6" style="@style/KeyboardKey"/>
+        <Button android:text="7" style="@style/KeyboardKey"/>
+        <Button android:text="8" style="@style/KeyboardKey"/>
+        <Button android:text="9" style="@style/KeyboardKey"/>
+        <Button android:text="0" style="@style/KeyboardKey"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="6dp"
+        android:orientation="horizontal">
+        <Button android:text="q" style="@style/KeyboardKey"/>
+        <Button android:text="w" style="@style/KeyboardKey"/>
+        <Button android:text="e" style="@style/KeyboardKey"/>
+        <Button android:text="r" style="@style/KeyboardKey"/>
+        <Button android:text="t" style="@style/KeyboardKey"/>
+        <Button android:text="y" style="@style/KeyboardKey"/>
+        <Button android:text="u" style="@style/KeyboardKey"/>
+        <Button android:text="i" style="@style/KeyboardKey"/>
+        <Button android:text="o" style="@style/KeyboardKey"/>
+        <Button android:text="p" style="@style/KeyboardKey"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="6dp"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="8dp">
+        <Button android:text="a" style="@style/KeyboardKey"/>
+        <Button android:text="s" style="@style/KeyboardKey"/>
+        <Button android:text="d" style="@style/KeyboardKey"/>
+        <Button android:text="f" style="@style/KeyboardKey"/>
+        <Button android:text="g" style="@style/KeyboardKey"/>
+        <Button android:text="h" style="@style/KeyboardKey"/>
+        <Button android:text="j" style="@style/KeyboardKey"/>
+        <Button android:text="k" style="@style/KeyboardKey"/>
+        <Button android:text="l" style="@style/KeyboardKey"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="6dp"
+        android:orientation="horizontal">
+        <Button android:text="⇧" style="@style/KeyboardSpecialKey" android:layout_weight="1.5"/>
+        <Button android:text="z" style="@style/KeyboardKey"/>
+        <Button android:text="x" style="@style/KeyboardKey"/>
+        <Button android:text="c" style="@style/KeyboardKey"/>
+        <Button android:text="v" style="@style/KeyboardKey"/>
+        <Button android:text="b" style="@style/KeyboardKey"/>
+        <Button android:text="n" style="@style/KeyboardKey"/>
+        <Button android:text="m" style="@style/KeyboardKey"/>
+        <Button android:text="⌫" style="@style/KeyboardSpecialKey" android:layout_weight="1.5"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal">
+
+        <Button android:text="\?123" style="@style/KeyboardSpecialKey" android:textSize="14sp" android:layout_weight="1.5"/>
+
+        <!-- Combined feature key -->
+        <Button android:text="✨" style="@style/KeyboardKey" android:layout_weight="1.0"/>
+
+        <!-- Emoji key -->
+        <Button android:text="😀" style="@style/KeyboardKey" android:layout_weight="1.0"/>
+        <Button android:text=" " style="@style/KeyboardKey" android:layout_weight="4"/>
+        <Button android:text="." style="@style/KeyboardKey" android:layout_weight="1"/>
+        <Button android:text="↵" style="@style/KeyboardSpecialKey" android:backgroundTint="@color/accent_green" android:textColor="@color/white" android:layout_weight="1.5"/>
+    </LinearLayout>
+
+</LinearLayout>
